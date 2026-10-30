@@ -55,7 +55,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Partitions - GMS
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/halcyon/config/BoardConfigReservedSize.mk
 
 # Partitions - Kernel
 BOARD_BOOTCONFIG := buildtime_bootconfig=enable
